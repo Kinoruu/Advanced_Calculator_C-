@@ -2,7 +2,7 @@
 #include <cstdlib>
 #include <cmath>
 #include <assert.h>
-#include "PolyDivide.h"
+#include "Polynomials.h"
 
 //#define NDEBUG
 
@@ -315,7 +315,7 @@ Polynomial Polynomial :: operator/(const Polynomial& left) // cialo przeladowani
 
 
 
-int Divide()
+int DividePoly()
 {
   Polynomial* m5 = new Polynomial(0, 0); // tworzenie root'ow
   Polynomial* m6 = new Polynomial(0, 0);

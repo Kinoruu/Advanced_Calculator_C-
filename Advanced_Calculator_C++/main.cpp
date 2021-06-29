@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cstdlib>
 #include "Basic.h"
-#include "PolyDivide.h"
+#include "Polynomials.h"
 #include "AreasOfFigures.h"
 #include "PerimetersOfFigures.h"
 #include "Trigonometry.h"
@@ -25,7 +25,7 @@ int main()
   F. Square Function \n \
   G. Volume of solids \n \
   H. Polynomials \n \
-    Choose chapeter by writing it's symbol: ";
+    Choose chapter by writing it's symbol: ";
   cin >> chapter;
 
   switch (chapter)
@@ -471,6 +471,22 @@ int main()
     }
     break;
   case 'H':
+    system("cls");
+    cout << "__H. Polynomials \n \
+     1. Divide polynomials \n ";
+     //2. Add polynomials \n \
+     //3. Substract polynomials \n \
+     //4. Multiply polynomials \n 
+     cout << "Choose operation by writing it's symbol: ";
+    cin >> operation;
+    cout << "\n";
+    switch (operation)
+    {
+    case 1:
+      cout << " Divide polynomials \n";
+      cout << DividePoly();
+      break;
+    }
     break;
   deafult:
     break;

@@ -24,7 +24,7 @@
     <ClCompile Include="LinearFunction.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="PerimetersOfFigures.cpp" />
-    <ClCompile Include="PolyDivide.cpp" />
+    <ClCompile Include="Polynomials.cpp" />
     <ClCompile Include="QuadraticFunction.cpp" />
     <ClCompile Include="Trigonometry.cpp" />
     <ClCompile Include="VolumesOfSolids.cpp" />
@@ -34,7 +34,7 @@
     <ClInclude Include="Basic.h" />
     <ClInclude Include="LinearFunction.h" />
     <ClInclude Include="PerimetersOfFigures.h" />
-    <ClInclude Include="PolyDivide.h" />
+    <ClInclude Include="Polynomials.h" />
     <ClInclude Include="QuadraticFunction.h" />
     <ClInclude Include="Trigonometry.h" />
     <ClInclude Include="VolumesOfSolids.h" />
